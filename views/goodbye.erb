@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First View!!</title>
+    </head>
+    <body>
+        <!-- Create another template called goodbye.erb in views. In this view, use ERB tags to create a variable name. This variable should store the name Joe. Then, using ERB tags, say "Goodbye Joe" in an h1 tag. This should get rendered via a GET /goodbye route by your App controller in app.rb. -->
+        <%= var = "Joe"%>
+        <h1><%= "Goodbye " + var %></h1>
+        <!-- <p>This HTML code is inside of a '.erb' file in the views directory, where it belongs.</p> -->
+    </body>
+</html>
